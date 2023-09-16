@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color:  white;
+    width: 100%;
+    padding: 15px 50px;
+    box-shadow: 0 4px 15px rgb(208, 208, 208);
+}
+.nav-logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+.f-p>span{
+    color: #E21B70;
+    font-size: 25px;
+    vertical-align: bottom;
+}
+
+.lang-dropdown{
+    margin-right: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.lang-dropdown>a>span{
+    font-size: 20px;
+    vertical-align: top;
+}
+.la-globe{
+    font-size: 25px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+.container1{
+    height: 83vh;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgb(208, 208, 208);
+    margin: 10px auto;
+}
+form{
+    padding: 20px;
+}
+form>h5{
+    font-size: 27px;
+    font-weight: bold;
+}
+form>button{
+    display: block;
+}
+.fb{
+    width: 100%;
+    background-color: #304ffe;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.la-facebook-f{
+    float: left;
+    padding: 4px 0 0 10px;
+}
+.apple{
+    width: 100%;
+    background-color: black;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.la-apple{
+    float: left;
+    padding: 4px 0 0 10px;
+}
+.or{
+    text-align: center;
+}
+.login{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #E21B70;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.signup{
+    width: 100%;
+    background: none;
+    outline: none;
+    border:1px solid #E21B70;
+    color: #E21B70;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+p>span{
+   color: #E21B70;
+}

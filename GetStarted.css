@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+    padding: 15px 50px;
+}
+
+.nav-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    vertical-align: bottom;
+}
+
+.f-p>span {
+    color: #E21B70;
+    font-size: 25px;
+}
+
+.header {
+    width: 100%;
+    height: 90vh;
+    background-image: url(images/bg_landing.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.page-2 {
+    margin-bottom: 50px;
+}
+
+.page-2-text>h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+    border-bottom: 15px;
+    color: white;
+}
+
+.page-2-text>p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.container1 {
+    width: 70vmin;
+    margin-left: 17%;
+    margin-top: -480px;
+}
+
+.form-container {
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(144, 144, 144, 0.823);
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+form>h5 {
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+
+form>input {
+    width: 100%;
+    background-color: rgb(238, 236, 236);
+    padding: 20px 10px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    border: none;
+    outline: none;
+}
+
+.GetStarted {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #E21B70;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 100px 40px;
+}
+
+.fplogo {
+    height: 30px;
+    width: 30px;
+}
+
+.footer-logo>a {
+    text-decoration: none;
+}
+
+.footer-logo>a>span {
+    color: rgb(172, 172, 172);
+    font-size: 23px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.footerp-1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(220, 219, 219);
+    border-top: 1px solid rgb(220, 219, 219);
+    padding: 30px 4px;
+    margin-right: 10px;
+}
+
+.footer-icons>i {
+    font-size: 30px;
+    color: rgb(172, 172, 172);
+}
+
+.footerp-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+    color: rgb(172, 172, 172);
+    border-bottom: 1px solid rgb(220, 219, 219);
+    margin-right: 10px;
+}
+
+.footerp-3 {
+    color: rgb(172, 172, 172);
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.footerp-3>p {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 750px) {
+    .footerp-2 {
+        flex-direction: column;
+    }
+
+    .footerp-2>div {
+        margin-bottom: 30px;
+    }
+}
